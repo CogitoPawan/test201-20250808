@@ -1,0 +1,15 @@
+from fastapi.testclient import TestClient
+from api.app import app
+
+client = TestClient(app)
+
+def test_read_root():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert response.json() == {"message": "Welcome to the Anomaly Detection API"}
+
+def test_detect_anomalies():
+    # Assuming 'test_data.csv' is a sample data file kept at the project root for testing.
+    response = client.post("/api/detect-anomalies", json={"file_path": "test_data.csv"})
+    assert response.status_code == 200
+    assert len(response.json()) > 0

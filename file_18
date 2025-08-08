@@ -1,0 +1,13 @@
+## API Endpoints
+
+- `GET /` - Root endpoint
+- `POST /api/detect-anomalies` - Detect anomalies in the provided data
+
+## Configuration
+
+The configuration is managed through environment variables:
+
+- `SECRET_KEY` - Secret key for the application
+- `DATABASE_URL` - URL of the PostgreSQL database
+- `REDIS_URL` - URL of the Redis instance
+- `COGNITIVE_SERVICES_API_KEY` - API key for Azure Cognitive Services

@@ -1,0 +1,17 @@
+anomaly-detection/
+├── anomaly_detector/
+│   ├── __init__.py
+│   ├── detector.py
+│   └── utils.py
+├── api/
+│   ├── __init__.py
+│   ├── app.py
+│   └── endpoints.py
+├── config.py
+├── requirements.txt
+├── run.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_api.py
+│   └── test_detector.py
+└── README.md

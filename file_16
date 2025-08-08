@@ -1,0 +1,6 @@
+5. **Access the API:**
+    Open your browser or use a tool like Postman to access [http://localhost:5000/api](http://localhost:5000/api)
+
+## Testing
+
+1. **Run the tests:**

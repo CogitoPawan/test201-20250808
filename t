@@ -1,0 +1,10 @@
+Flask==2.2.2
+fastapi==0.92.0
+uvicorn==0.20.0
+SQLAlchemy==1.4.41
+psycopg2-binary==2.9.5
+redis==4.4.0
+requests==2.28.1
+scikit-learn==1.1.2
+pandas==1.4.2
+azure-cognitiveservices-vision-customvision==3.1.0
